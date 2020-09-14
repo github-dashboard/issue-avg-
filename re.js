@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const { filterRouter, cardsRouter } = require('./routes/index');
 const { Logger } = require('./helpers/index');
-const cors = require('cors');
+const cors = require('cors');x
 // comments
 const app = express();
 dotenv.config();
