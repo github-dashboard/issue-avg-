@@ -21,7 +21,7 @@ app.use('/', async (req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET');
   }
-  Logger.log('info', `Middleware running: ${req.hostname}`);
+  Logger.log('info', `Middleware running: ${req.hostname}`);d
   next();
 });
 // app.use(cors({origin: 'http://localhost:3000'})); 
